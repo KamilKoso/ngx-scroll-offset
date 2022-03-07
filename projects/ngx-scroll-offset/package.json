@@ -1,0 +1,16 @@
+{
+  "name": "ngx-scroll-offset",
+  "version": "12.0.0",
+  "description": "Simple package to calculate how far user is scrolled through the page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KamilKoso/ngx-scroll-offset"
+  },
+  "peerDependencies": {
+    "@angular/common": "^12.0.5",
+    "@angular/core": "^12.0.5"
+  },
+  "dependencies": {
+    "tslib": "^2.1.0"
+  }
+}

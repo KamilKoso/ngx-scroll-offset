@@ -1,0 +1,8 @@
+<div [emitWhenAbove]="90"  [emitWhenUnder]="5" (windowScrollOffset)="windowScrollOffset($event)">
+ <p *ngFor="let number of testArray">{{number}}</p>
+
+</div>
+
+<div class="h-50" [emitWhenAbove]="90"  [emitWhenUnder]="5" (scrollOffset)="elementScrollOffset($event)">
+  <p *ngFor="let number of testArray">{{number}}</p>
+</div>
